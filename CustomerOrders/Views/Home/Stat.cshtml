@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Stat";
+}
+
+<h2>Statistics</h2>
+
+<table class="table">
+    <tr>
+        <th></th>
+        <th>
+            VIP
+        </th>
+        <th>
+            Top
+        </th>
+        <th>
+            Middle
+        </th>
+        <th>
+            Standard
+        </th>
+    </tr>
+
+    <tr>
+        <td>Customer Amount</td>
+        <td>
+            @ViewBag.VIP
+        </td>
+        <td>
+            @ViewBag.Top
+        </td>
+        <td>
+            @ViewBag.Mid
+        </td>
+        <td>
+            @ViewBag.Std
+        </td>
+    </tr>
+
+        <tr>
+            <td>Order Amount</td>
+            <td>
+                @ViewBag.sum
+            </td>
+            <td>
+                @ViewBag.sum2
+            </td>
+            <td>
+                @ViewBag.sum3
+            </td>
+            <td>
+                @ViewBag.sum4
+            </td>
+        </tr>
+    
+</table>
+
